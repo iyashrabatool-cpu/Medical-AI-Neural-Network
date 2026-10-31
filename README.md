@@ -1,3 +1,20 @@
+# 🏥 Medical AI: Neural Network Diabetes Risk Predictor
+
+This repository contains an **Artificial Neural Network (ANN)** built from scratch to predict diabetes risk using patient clinical parameters. 
+
+## 🧠 Why This Project Exists
+As a **Pre-Medical student with an 80.2% academic score**, I wanted to actively bridge the gap between my foundational biological knowledge and my future career goals in **Artificial Intelligence and Data Science**. Instead of waiting for university, I self-taught the fundamentals of Deep Learning to build this predictive model.
+
+## 🛠️ Tech Stack & Architecture
+* **Language:** Python 3
+* **Framework:** TensorFlow & Keras (Deep Learning)
+* **Libraries:** Pandas (Data Handling), Scikit-Learn (Data Scaling & Preprocessing)
+* **Environment:** Google Colaboratory
+
+## 📊 How the Brain Works
+1. **StandardScaler Normalization:** Scales raw patient metrics evenly so the neural network processes variations optimally.
+2. **Dense Hidden Layers:** Uses **ReLU** activation functions to calculate deep, non-linear correlations across 6 medical inputs (Glucose, BP, BMI, Insulin, Age, Family History).
+3. **Sigmoid Output Layer:** Compresses the final synaptic signal into a clean diagnostic risk percentage between 0% and 100%.
 import numpy as np
 import pandas as pd
 import tensorflow as tf
